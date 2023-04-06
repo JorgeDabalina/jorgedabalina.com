@@ -1,3 +1,2 @@
 # jorgedabalina.com
-Personal website for the artist Jorge Dabaliña xd
-git
+Personal website for the artist Jorge Dabaliña
