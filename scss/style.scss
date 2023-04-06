@@ -1,0 +1,50 @@
+@use 'reset.scss';
+@use 'variables.scss' as *;
+@use 'components/typography.scss';
+.container {
+    background: $gray-100;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.card {
+    background: $white;
+    width: 100%;
+    max-width: 375px;
+    height: 80vh;
+    border: 0.16em solid $gray-400;
+    border-radius: $rounded;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.btn {
+    margin-top: 1em;
+    border: 0.16em solid $gray-400;
+    padding: 15px 0px;
+    width: 100%;
+    border-radius: $veryrounded;
+    background-color: $white;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    //grid-gap: 10px;
+    align-items: flex-end;
+}
+
+.logo {
+    grid-column: 1 / 5;
+    margin-top: 1em;
+    width: 100%;
+    max-width: 6em;
+}
+
+.profile-text {
+    grid-column: 6 / 17;
+}
