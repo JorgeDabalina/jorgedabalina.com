@@ -2,7 +2,7 @@
 @use 'variables.scss' as *;
 @use 'components/typography.scss';
 .container {
-    background: $gray-100;
+    background: $white;
     display: grid;
     height: 100vh;
     place-items: center;
@@ -10,12 +10,12 @@
 
 .card {
     background: $white;
-    width: 100%;
-    max-width: 375px;
-    height: 80vh;
-    border: 0.16em solid $gray-400;
-    border-radius: $rounded;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    
+    min-width: 200px;
+    max-width: 450px;
+    
+    
+    
     padding: 20px;
 }
 
