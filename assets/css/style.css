@@ -204,6 +204,13 @@ a:visited {
   margin-right: 10px;
 }
 
+.category {
+  padding-top: 20px;
+  font-weight: 400;
+  color: #343a40;
+  text-align: center;
+}
+
 .container {
   background: #fff;
   display: grid;
